@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  padding: 1rem;
+}
+
+.outer {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+  display: block;
+}
+
+body {
+  color: #555555;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav a {
+  list-style-type: none;
+}
+
+.menu-button{
+width: 2.5rem;
+height: auto;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.outer {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.wrap {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+}
+
+#main-menu, .social-nav, .bb-logo, .pp-logo {
+  padding: 0 1rem;
+}
+
+/*header*/
+
+.header {
+  background: #becb00;
+}
+
+.main-nav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0;
+  padding-right: 0;
+  border-bottom: 1px solid #000;
+}
+
+.menu-button {
+  border: none;
+  background: transparent;
+  width: 100%;
+  text-align: left;
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+
+.menu-button img {
+  width: 2rem;
+  height: auto;
+  vertical-align: middle;
+}
+
+
+#main-menu,
+#social-menu {
+  list-style-type: none;
+}
+
+#main-menu {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  display: none;
+}
+
+#main-menu a {
+  font-size: 1.5rem;
+  display: block;
+  text-decoration: none;
+  color: #000;
+  border-left: 5px solid transparent;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  background: #becb00;
+}
+
+#main-menu a:hover,
+#main-menu a:focus {
+  border-left: 5px solid #000;
+}
+
+.social-nav {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+#social-menu img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.bb-logo {
+  width: 100%;
+  padding-top: 3.5rem;
+  padding-bottom: .5rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+ .beans {
+   width: 50%;
+  height: auto;
+  margin-bottom: 5rem;
+   display: block;
+   margin: auto;
+}
+
+.pfennigparade {
+  width: 6.5rem;
+  display: block;
+margin: auto;
+}
